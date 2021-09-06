@@ -1,0 +1,15 @@
+println("Wie is Jehovah?");
+println(" ");
+println("Het antwoord uit de Bijbel");
+println("Jehovah is de ware God uit de Bijbel, de Maker van alles.");
+println("De profeten Abraham en Mozes aanbaden hem, net als Jezus.");
+println("Hij is niet slechts de God van één volk, maar van ‘de gehele aarde’.");
+println(" ");
+print("Volgens de Bijbel is Jehovah ");
+println("de unieke naam van God.");
+println("Die naam komt van een Hebreeuws werkwoord dat ‘worden’ betekent.");
+println("Volgens een aantal Bijbelgeleerden betekent de naam ‘Hij veroorzaakt te worden’.");
+print("Deze definitie past heel goed bij ");
+println("Jehovah’s rol als Maker en de Vervuller van zijn voornemen.");
+print("De Bijbel helpt ons ook om de persoon achter de naam te leren kennen ");
+println("en dan vooral zijn belangrijkste eigenschap: liefde.");

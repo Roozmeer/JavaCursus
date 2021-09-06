@@ -1,0 +1,12 @@
+size(950, 980);
+text("Waarom is Jezus gestorven?", 30, 100);
+text("Het antwoord uit de Bijbel", 30, 120);
+text("Jezus is gestorven zodat mensen vergeving van zonden en eeuwig leven kunnen krijgen", 30, 140);
+text("Met Jezus’ dood werd ook bewezen dat een mens trouw aan God kan blijven, zelfs onder de ergste beproevingen.", 30, 160);
+text("Hoe kon de dood van één man zo veel tot stand brengen?", 30, 180);
+text("1. Jezus is gestorven voor ‘de vergeving van onze zonden’", 17, 220);
+text("De eerste mens Adam was volmaakt, of zonder zonde, toen hij gemaakt werd.", 30, 240);
+text("Maar hij koos ervoor God ongehoorzaam te zijn.", 30, 260);
+text("Zijn ongehoorzaamheid of zonde had grote gevolgen voor al zijn nakomelingen.", 30, 280);
+text("In de Bijbel staat: ‘Door de ongehoorzaamheid van de ene mens werden velen tot zondaars gesteld’", 30, 300);
+text("Ook Jezus was volmaakt, maar hij heeft nooit gezondigd.", 30, 340);

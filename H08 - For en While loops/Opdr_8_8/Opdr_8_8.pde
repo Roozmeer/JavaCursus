@@ -1,5 +1,13 @@
-println("0");
-println("1");
-for(int i = 2; i<150;){
-  println(i);
+int antwoord = 0;
+int getalEen = 0;
+int getalTwee = 1;
+
+println(getalEen);
+println(getalTwee);
+
+for(int i = 0; i<20; i++){
+  antwoord = getalEen + getalTwee;
+  println(antwoord);
+  getalEen = getalTwee;
+  getalTwee = antwoord;
 }

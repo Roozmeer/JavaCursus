@@ -1,10 +1,10 @@
 boolean gevonden;
-int[] leeftijden = {,14,47,8,50};
+String[] namen = {"piet", "jan"};
 
 void setup(){
   gevonden = false;
-  for(int i=0; i<leeftijden.length; i++){
-    if(leeftijden[i] == 8){
+  for(int i=0; i<namen.length; i++){
+    if(namen[i] == "jan"){
       gevonden = true;
     }
   }

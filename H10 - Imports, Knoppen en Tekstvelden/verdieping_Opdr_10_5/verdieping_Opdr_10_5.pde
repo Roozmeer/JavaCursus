@@ -6,6 +6,7 @@ Button knop1;
 Button knop2;
 Button knop3;
 Button knop4;
+//Button knop5;
 
 Textfield tekstveld1;
 Textfield tekstveld2;
@@ -36,12 +37,20 @@ void setup(){
             .setColorLabel(color(0,0,0))
             .setCaptionLabel("+");
             
-  knop4 = cp.addButton("min")
+  knop4 = cp.addButton("minus")
             .setPosition(140,80)
             .setSize(20,20)
             .setColorBackground(color(255,255,255))
             .setColorLabel(color(0,0,0))
             .setCaptionLabel("-");
+  
+/*  knop5 = cp.addButton("enter")
+            .setPosition(220,12)
+            .setSize(80,50)
+            .setColorBackground(color(255,255,255))
+            .setColorLabel(color(0,0,0))
+            .setCaptionLabel("Enter");
+*/
   
   tekstveld1 = cp
                 .addTextfield("input1")
@@ -62,3 +71,24 @@ void setup(){
 void draw(){
   
 }
+
+void keer(){
+  
+}
+
+void delen(){
+  
+}
+
+void plus(){
+  
+}
+
+void minus(){
+  
+}
+
+/*void enter(){
+  
+}
+*/

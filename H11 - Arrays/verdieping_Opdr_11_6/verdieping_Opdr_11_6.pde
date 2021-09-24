@@ -9,7 +9,7 @@ void setup(){
   array[5] = 9;
   array[6] = 1;
   array[7] = 2;
-  array[8] = 3;
+  array[8] = 0;
   array[9] = 5;
   
   println(array);

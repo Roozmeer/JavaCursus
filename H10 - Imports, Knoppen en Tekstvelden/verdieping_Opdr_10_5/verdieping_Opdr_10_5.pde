@@ -6,14 +6,16 @@ Button knop1;
 Button knop2;
 Button knop3;
 Button knop4;
-//Button knop5;
+
+
+float eindgetal;
 
 Textfield tekstveld1;
 Textfield tekstveld2;
 
 void setup(){
   size(500,500);
-  background(0,0,0);
+  
   cp = new ControlP5(this);
   
   knop1 = cp.addButton("keer")
@@ -44,14 +46,6 @@ void setup(){
             .setColorLabel(color(0,0,0))
             .setCaptionLabel("-");
   
-/*  knop5 = cp.addButton("enter")
-            .setPosition(220,12)
-            .setSize(80,50)
-            .setColorBackground(color(255,255,255))
-            .setColorLabel(color(0,0,0))
-            .setCaptionLabel("Enter");
-*/
-  
   tekstveld1 = cp
                 .addTextfield("input1")
                 .setAutoClear(false)
@@ -69,26 +63,31 @@ void setup(){
 }
 
 void draw(){
+  background(0,0,0);
   
+  text(eindgetal,250,40);
 }
 
 void keer(){
-  
+  float getal1 = int(tekstveld1.getText());
+  float getal2 = int(tekstveld2.getText());
+  eindgetal = getal1 * getal2;
 }
 
 void delen(){
-  
+  float getal1 = int(tekstveld1.getText());
+  float getal2 = int(tekstveld2.getText());
+  eindgetal = getal1 / getal2;
 }
 
 void plus(){
-  
+  float getal1 = int(tekstveld1.getText());
+  float getal2 = int(tekstveld2.getText());
+  eindgetal = getal1 + getal2;
 }
 
 void minus(){
-  
+  float getal1 = int(tekstveld1.getText());
+  float getal2 = int(tekstveld2.getText());
+  eindgetal = getal1 - getal2;
 }
-
-/*void enter(){
-  
-}
-*/

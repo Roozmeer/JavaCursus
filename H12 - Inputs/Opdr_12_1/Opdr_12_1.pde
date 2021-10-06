@@ -4,7 +4,7 @@ void setup(){
 }
 
 void draw(){
-  if(keyCode == 65){
+  if(keyCode == 40){
     println("Gevonden");
   }else{
     println("");

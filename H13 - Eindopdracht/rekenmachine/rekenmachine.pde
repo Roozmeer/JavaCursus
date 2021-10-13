@@ -153,6 +153,7 @@ void draw(){
 
 void knop0(){
   println("0");
+  
 }
 
 void knop1(){
@@ -189,6 +190,7 @@ void knop8(){
 
 void knop9(){
   println("9");
+  
 }
 
 void knopKomma(){

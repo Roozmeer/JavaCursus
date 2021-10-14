@@ -12,21 +12,11 @@ Button knop6;
 Button knop7;
 Button knop8;
 Button knop9;
-Button knopKomma;
-Button knopPlus;
-Button knopMin;
-Button knopKeer;
-Button knopDeel;
-Button knopIs;
-Button knopReset;
 
 void setup(){
   size(410,710);
   background(255,255,255);
   textSize(25);
-  fill(211,211,211);
-  noStroke();
-  rect(10,10,390,190);
   
   cp = new ControlP5(this);
   ControlFont font = new ControlFont(createFont("arial",25));
@@ -110,62 +100,6 @@ void setup(){
     .setColorLabel(color(255,255,255))
     .setColorBackground(color(0,0,255))
     .setCaptionLabel("9");
-  
-  cp.addButton("knopKomma")
-    .setPosition(210,610)
-    .setSize(90,90)
-    .setFont(font)
-    .setColorLabel(color(255,255,255))
-    .setColorBackground(color(0,0,255))
-    .setCaptionLabel(",");
-    
-  cp.addButton("knopPlus")
-    .setPosition(10,210)
-    .setSize(90,90)
-    .setFont(font)
-    .setColorLabel(color(255,255,255))
-    .setColorBackground(color(0,0,255))
-    .setCaptionLabel("+");
-  
-  cp.addButton("knopMin")
-    .setPosition(110,210)
-    .setSize(90,90)
-    .setFont(font)
-    .setColorLabel(color(255,255,255))
-    .setColorBackground(color(0,0,255))
-    .setCaptionLabel("-");
-  
-  cp.addButton("knopKeer")
-    .setPosition(310,310)
-    .setSize(90,90)
-    .setFont(font)
-    .setColorLabel(color(255,255,255))
-    .setColorBackground(color(0,0,255))
-    .setCaptionLabel("X");
-    
-  cp.addButton("knopDeel")
-    .setPosition(310,410)
-    .setSize(90,90)
-    .setFont(font)
-    .setColorLabel(color(255,255,255))
-    .setColorBackground(color(0,0,255))
-    .setCaptionLabel("/");
-  
-  cp.addButton("knopIs")
-    .setPosition(310,510)
-    .setSize(90,190)
-    .setFont(font)
-    .setColorLabel(color(255,255,255))
-    .setColorBackground(color(0,0,255))
-    .setCaptionLabel("=");
-    
-  cp.addButton("knopReset")
-    .setPosition(210,210)
-    .setSize(190,90)
-    .setFont(font)
-    .setColorLabel(color(255,255,255))
-    .setColorBackground(color(0,0,255))
-    .setCaptionLabel("Reset");
 }
 
 void draw(){
@@ -174,11 +108,7 @@ void draw(){
 
 void knop0(){
   println("0");
-  background(255,255,255);
-  fill(211,211,211);
-  rect(10,10,390,190);
-  fill(0,0,0);
-  text("0",20,110);
+  text("",,);
 }
 
 void knop1(){
@@ -216,32 +146,4 @@ void knop8(){
 void knop9(){
   println("9");
   
-}
-
-void knopKomma(){
-  println(",");
-}
-
-void knopPlus(){
-  println("+");
-}
-
-void knopMin(){
-  println("-");
-}
-
-void knopKeer(){
-  println("X");
-}
-
-void knopDeel(){
-  println("/");
-}
-
-void knopIs(){
-  println("=");
-}
-
-void knopReset(){
-  println("Reset");
 }

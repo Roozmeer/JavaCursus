@@ -7,6 +7,7 @@ Textfield tekstveld1;
 
 int output;
 int Y;
+int uitkomst;
 
 void setup(){
   size(500,660);
@@ -41,9 +42,10 @@ void Knop1(){
   background(255,255,255);
   output = int(tekstveld1.getText());
   Y = 160;
-  for(int i = 1; i<11; i++){
-    println(i * output);
-    text(i + " " + "*" + " " + output + " " + "=" + " " + i * output,40,Y);
+  for(int i = 1; i<=10; i++){
+    uitkomst = i * output;
+    println(uitkomst);
+    text(i + " * " + output + " = " + uitkomst,40,Y);
     Y += 50;
   }
 }
